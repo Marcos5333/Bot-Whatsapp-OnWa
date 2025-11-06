@@ -1,5 +1,13 @@
 # Bot-Whatsapp-OnWa
 
+Obs , quando instalar as dependencias ela ira criar os arquivos necessario na pasta Raiz 
+Instalar as dependencias na pasta raiz exemplo C:\Users\servi\Desktop\Bot-Whatsapp-OnWa
+iremos fazer a seguinte forma
+
+cd Bot-Whatsapp-OnWa
+e depois iremos instalar as dependencias , ou simplesmente clicando com o botao direito e apertando em Abrir terminal na pasta 
+
+
 🌦️ WeatherBot – Consulta Meteorológica Automatizada
 
 Um bot desenvolvido em Node.js para consultar dados meteorológicos em tempo real a partir de APIs públicas de clima.
@@ -24,7 +32,7 @@ JavaScript (ES6) – lógica e manipulação dos dados retornados.
 
 Clone este repositório:
 git clone https://github.com/Marcos5333/Bot-Whatsapp-OnWa
-cd weather-bot
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instale as dependências:
 
