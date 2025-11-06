@@ -1,4 +1,4 @@
-# Bot-Whatsapp-OnWa
+<img width="1459" height="865" alt="image" src="https://github.com/user-attachments/assets/641e4292-cc3f-4735-b36d-361ddf660639" /># Bot-Whatsapp-OnWa
 
 Obs , quando instalar as dependencias ela ira criar os arquivos necessario na pasta Raiz 
 Instalar as dependencias na pasta raiz exemplo C:\Users\servi\Desktop\Bot-Whatsapp-OnWa
@@ -12,6 +12,7 @@ e depois iremos instalar as dependencias , ou simplesmente clicando com o botao 
 
 Um bot desenvolvido em Node.js para consultar dados meteorológicos em tempo real a partir de APIs públicas de clima.
 O projeto tem como objetivo automatizar o processo de verificação do tempo, possibilitando o envio de relatórios ou notificações automáticas com base nas condições atuais.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Funcionalidades
 
@@ -20,6 +21,7 @@ Suporte a busca por cidade, estado ou coordenadas geográficas (latitude/longitu
 Integração com APIs de meteorologia (ex: OpenWeatherMap).
 Possibilidade de agendar consultas automáticas periódicas.
 Retorno formatado em JSON ou mensagens legíveis, ideal para integração com bots ou dashboards.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Tecnologias Utilizadas
 
@@ -27,6 +29,7 @@ Node.js – ambiente de execução principal.
 Axios – para consumo de APIs REST.
 Dotenv – gerenciamento seguro de variáveis de ambiente (chaves da API).
 JavaScript (ES6) – lógica e manipulação dos dados retornados.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  Como Executar
 
@@ -46,8 +49,9 @@ npm install axios puppeteer dotenv @open-wa/wa-automate node-schedule
 Alterar sua key no codigo , Pegar uma gratuita no site  https://openweathermap.org/api
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  Execute o bot:
- 
+
 node index.js
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Exemplo de Retorno
 
@@ -56,12 +60,14 @@ Exemplo de Retorno
   "sensacao_termica": "28°C",
   "umidade": "70%",
   "condicao": "Parcialmente nublado"
+  
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Possíveis Extensões
 
 Integração com WhatsApp ou Telegram para alertas automáticos.
 Criação de interface web para exibir dados em tempo real.
 Armazenamento histórico em Firebase ou MongoDB para análise de padrões climáticos.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📚 Explicação de cada pacote
 
@@ -70,6 +76,9 @@ puppeteer =	Controla o navegador (modo headless) caso precise automatizar login 
 dotenv =	Gerencia as variáveis de ambiente no arquivo .env (como a chave da API).
 @open-wa/wa-automate =	Permite criar um cliente WhatsApp Web automatizado, enviar e receber mensagens.
 node-schedule =	(Opcional) Permite agendar tarefas automáticas, como enviar o clima todo dia às 8h.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+No codigo JS Utilizamos uma função para listar os grupos e pegar o id deles assim conseguimos enviar mensagens em grupos ou tambem para contatos !
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Desenvolvido por Marcos Souza
