@@ -29,8 +29,11 @@ cd weather-bot
 Instale as dependências:
 
 npm install
+
 npm init
+
 npm install axios puppeteer dotenv @open-wa/wa-automate node-schedule
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Alterar sua key no codigo , Pegar uma gratuita no site  https://openweathermap.org/api
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
