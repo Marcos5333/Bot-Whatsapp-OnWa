@@ -1,4 +1,4 @@
-<img width="1459" height="865" alt="image" src="https://github.com/user-attachments/assets/641e4292-cc3f-4735-b36d-361ddf660639" /># Bot-Whatsapp-OnWa
+Bot-Whatsapp-OnWa
 
 Obs , quando instalar as dependencias ela ira criar os arquivos necessario na pasta Raiz 
 Instalar as dependencias na pasta raiz exemplo C:\Users\servi\Desktop\Bot-Whatsapp-OnWa
